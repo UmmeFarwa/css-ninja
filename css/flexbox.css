@@ -55,4 +55,5 @@ body
     display: flex;
     border:10px solid goldenrod;
     min-height: 97vh;
+    flex-direction: column;
 }
