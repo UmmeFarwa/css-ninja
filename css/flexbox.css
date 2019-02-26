@@ -21,6 +21,7 @@ body
 .box2
 {
     background-color: red;
+    padding-bottom: 0px;
     
 }
 .box3
@@ -55,6 +56,8 @@ body
 .box9
 {
     background-color: grey;
+    padding-bottom: 50px;
+    align-self: flex-end;
 }
 .box10
 {
@@ -65,7 +68,6 @@ body
     display: flex;
     border:10px solid mistyrose;
     min-height:100vh; 
-    flex-wrap: wrap;
-    align-content: flex-end;
+    align-items: flex-start;
 
 }
