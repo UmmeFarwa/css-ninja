@@ -7,24 +7,51 @@ body
     color:white;
     font-size:50px;
     text-align: center;
-    text-shadow: 4px 4px 0 rgba(0,0,0,1);
+    flex-basis: 250px;
+    flex-grow: 1;
 
    
  }
 .box1
 {
     background-color: rgb(47, 255, 57);
-    flex-basis: 400px;
-    flex-grow: 10;
-    flex-shrink: 5;
+    
 
 }
 .box2
 {
     background-color: red;
-    flex-basis: 400px;
-    flex-grow: 1;
-    flex-shrink: 1;
+   
+    
+   
+    
+}
+.box3
+{
+    background-color: rgb(255, 166, 0);
+    flex-grow: 5;
+   
+    
+}
+.box4
+{
+    background-color: rgb(251, 255, 0);
+    flex-basis:100px;
+    
+   
+    
+}
+.box5
+{
+    background-color:rgba(0, 4, 255, 0.952);
+    
+   
+    
+}
+.box6
+{
+    background-color:rgb(238, 170, 193);
+    
    
     
 }
@@ -32,4 +59,8 @@ body
 .container
 {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    border: 10px solid salmon;
 }
