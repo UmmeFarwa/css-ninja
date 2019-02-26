@@ -1,0 +1,137 @@
+.header
+{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:rgb(19, 17, 17);
+        border: 5px solid black;
+        color:white;
+        height:50px;
+
+
+    
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    height:100vh ; 
+
+}
+a
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color: white;
+
+}
+a:link
+{
+    color: white;
+    
+}
+.col-1
+{
+ 
+ flex-basis: 300px;
+ flex-grow: 1;
+ flex-shrink: 2;
+ box-shadow: -10px 0px 20px whitesmoke;
+ background-color: rgba(0, 0, 0, 0.842);
+ align-items: center;
+ padding-left: 30px;
+ color: white;
+ padding-top: 15px;
+
+
+ 
+}
+.col-2
+{
+ 
+    box-shadow: 10px 0px 20px whitesmoke;
+    padding-top: 10px;
+
+    background-color: white;
+    flex-basis: 400px;
+    flex-grow: 10;
+    padding-left: 30px;
+}
+body
+{ 
+    margin: 0;
+    background-color:rgb(6, 27, 87);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+}
+
+.styling
+{
+    display: inline-block;
+    width:50px;
+    height:10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.filled
+{
+    background-color:blue;
+}
+.width
+{
+ display: inline-block;
+ width: 120px;
+}
+.icons
+{
+    color: rgba(0, 183, 255, 0.877);
+    
+}
+img
+{
+
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 100px;
+}
+
+h2
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgba(0, 183, 255, 0.678);
+}
+.col-2 h2
+{
+    background-color: rgb(24, 22, 22);
+    padding: 10px;
+    border-radius:10px;
+    padding-left:20px;
+}
+.name
+{
+    font-weight:bold;
+    font-size: 24px;
+    color: maroon;
+}
+.heading
+{
+    font-size: 18px;
+    color: rgb(0, 19, 128);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.border
+{
+    border-right: 2px solid black;
+}
+.padding
+{
+    padding-left: 120px;
+}
