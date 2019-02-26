@@ -1,0 +1,58 @@
+body
+{
+    margin:0;
+}
+.box
+{
+    color:white;
+    font-size:90px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,1);
+    padding:10px;
+ }
+.box1
+{
+    background-color: rgb(47, 255, 57);
+}
+.box2
+{
+    background-color: red;
+}
+.box3
+{
+    background-color: rgba(0, 247, 255, 0.432);
+}
+.box4
+{
+    background-color: palevioletred;
+}
+.box5
+{
+    background-color:blue;
+}
+.box6
+{
+    background-color: orange;
+}
+.box7
+{
+    background-color: purple;
+}
+.box8
+{
+    background-color:yellow;
+}
+.box9
+{
+    background-color: grey;
+}
+.box10
+{
+    background-color: rgb(188, 143, 160);
+}
+.container
+{
+    display: flex;
+    border:10px solid goldenrod;
+    min-height: 97vh;
+}
